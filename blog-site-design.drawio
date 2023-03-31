@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2023-03-31T15:08:26.383Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="-F-CCK_pB6ffFUKbZF3k" version="21.1.2" type="device">
+  <diagram name="UseCase" id="i8N-sW405HDS1cg340dT">
+    <mxGraphModel dx="1267" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-3" value="専用画面から読書の記事を書きたい" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7RdAZlWeicOTnt5fZwr-1" target="M7RdAZlWeicOTnt5fZwr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="sourcePoint" />
+            <mxPoint x="490" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-6" value="コメント機能をつけたい" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7RdAZlWeicOTnt5fZwr-1" target="M7RdAZlWeicOTnt5fZwr-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417" y="186" as="sourcePoint" />
+            <mxPoint x="500" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-8" value="カテゴリ毎に記事を分けて表示したい" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.95;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7RdAZlWeicOTnt5fZwr-1" target="M7RdAZlWeicOTnt5fZwr-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417" y="186" as="sourcePoint" />
+            <mxPoint x="500" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-10" value="ページングしたい" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7RdAZlWeicOTnt5fZwr-1" target="M7RdAZlWeicOTnt5fZwr-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="402" y="186" as="sourcePoint" />
+            <mxPoint x="324" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-12" value="SNS で共有できるようにしたい&lt;br&gt;-&amp;gt; Facebook、Twitter、Line" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7RdAZlWeicOTnt5fZwr-1" target="M7RdAZlWeicOTnt5fZwr-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417" y="186" as="sourcePoint" />
+            <mxPoint x="620" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-15" value="コメントはログインしてからできるようにしたい" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M7RdAZlWeicOTnt5fZwr-1" target="M7RdAZlWeicOTnt5fZwr-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="180" as="sourcePoint" />
+            <mxPoint x="620" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-17" value="ログインはソーシャルログインで対応する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7RdAZlWeicOTnt5fZwr-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M7RdAZlWeicOTnt5fZwr-1" target="M7RdAZlWeicOTnt5fZwr-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417" y="186" as="sourcePoint" />
+            <mxPoint x="620" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
